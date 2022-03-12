@@ -27,7 +27,7 @@ Keras
 Tensorflow
 SKlLearn
 matplotlib
-GloVe embeddings are downloaded in glove folder
+GloVe embeddings (glove.6B.50d) shall be downnloaded and placed in "glove" folder.
 
 ##Hardware dependencies
 Best to use a GPU to train SNGP with BERT model.
@@ -44,7 +44,6 @@ In this project, recall is the measure of out-of-distribution examples not being
 3. AUPRC (Area Under Precision and Recall Curve)
 AUPRC metric is used with imbalanced data where the focus is optimizing for true positives. Maximum AUPRC means perfect precision and perfect recall. In real-world it is always a trade-off between precision and recall.
 In this project, objective is to find out-of-distribution data efficiently.  Thus, recall is to be optimized.
-Below graph shows AUPRC curve for 3 runs.
 
 SNGP Model 1
 Batch size = 32
