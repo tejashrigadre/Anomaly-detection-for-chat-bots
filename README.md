@@ -1,7 +1,10 @@
 # Out-of-Distribution input prediction for Task-Oriented Dialogue Systems
-Explore anomaly detection techniques to enhance chat-bot responses
+Explore anomaly detection techniques to enhance chat-bot responses.
 
 The main objective of this project is to predict the out-of-distribution input data and pass only in-scope data to the chat-bots. The identified out-of- distribution data could be further used for re-training the model. In this way, the risk of giving incorrect output could be minimized.
+
+This project has been submitted as Capstone project for Udacity AWS Machine Learning Engineer Nanodegree Program. 
+(https://confirm.udacity.com/C4VUQJ7Q)
 
 ## Project Set Up and Installation
 Use jupyter-lab to run .ipynb files
